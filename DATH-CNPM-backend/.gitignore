@@ -1,0 +1,13 @@
+# Bỏ qua tất cả các thư mục node_modules
+node_modules/
+
+# Bỏ qua các file .env (chứa mật khẩu, API keys)
+.env
+.env.local
+
+# Bỏ qua thư mục build của Vite (frontend)
+dist/
+
+# Bỏ qua các file log
+*.log
+npm-debug.log*
